@@ -4,17 +4,34 @@
 
 <div class="container">
     <div class="row">
-        <div class="col"><MudText ><h1>Hello</h1></MudText></div>
+        <div class="col"><MudText><h1>Hello</h1></MudText></div>
     </div>
     <div class="row">
-        <div class="col-md-8"><MudText >My name is Carsten Cleve and i welcome you on my Homepage.<br />
-I work currently as a Team Lead at Realcore Services GmbH.<br />
-
-Mainly i am developing Microservices on Azure with different Frontend and Backend Technologies.<br />
-I am new to creating blog entries about difficulties i ve in my Projects. <br />
-
-Feel free to read them on medium and connect with me.<br /><br /></MudText></div>
-        <div class="col-md-4"><img style="border-radius: 50%;height:150px; width:150px;" src=/img/ich2.jpg /></div>
+        <div class="col-md-8">
+            <MudText>
+                <IconField Text="Hi, I’m Carsten Cleve, welcome on my Homepage">👋</IconField>
+                <IconField Text="I’m interested in new Technologies around Microsoft">👀</IconField>
+                <IconField Text="I’m currently learning Blazor">🌱</IconField>
+                <IconField Text="I work currently as a Team Lead at Realcore Services GmbH">👨‍💼</IconField>
+                <IconField Text="You can visit my Blog, where i write about my Projects">🗒️</IconField>
+                <IconField Text="Reach me on:">📫</IconField>
+                <div style="margin-left:20px;">
+                    <IconField Link="https://www.linkedin.com/in/carsten-cleve/" Text="Join me on LinkedIn"><MudIcon Icon="@Icons.Custom.Brands.LinkedIn"></MudIcon> </IconField>
+                    <IconField Link="https://github.com/cleve941" Text="Join me on GitHub"><MudIcon Icon="@Icons.Custom.Brands.GitHub" /></IconField>
+                    <IconField Link="https://www.xing.com/profile/Carsten_Cleve2/" Text="Join me on Xing"><i class="fa-brands fa-xing"></i></IconField>
+                    <IconField Link="@mediumUrl" Text="Follow me on Medium"><i class="fa-brands fa-medium"></i></IconField>
+                </div>
+                
+                
+            </MudText>
+        </div>
+        <div class="col-md-4">
+            <img style="border-radius: 50%;height:150px; width:150px;" src=/img/ich2.jpg /><br />
+            My Code works! I dont know why...
+        </div>
     </div>
 </div>
 
+@code{
+    private const string mediumUrl= "https://medium.com/@carstencleve";
+}

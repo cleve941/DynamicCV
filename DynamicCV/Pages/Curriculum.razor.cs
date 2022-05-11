@@ -19,8 +19,6 @@ namespace DynamicCV.Pages
         protected override async Task OnInitializedAsync()
         {
             person = await Http.GetFromJsonAsync<Person>("sample-data/person.json");
-            //person.ProjectHistoryEntries[0].StartingDate = DateTime.Now;
-            string jsonString = JsonSerializer.Serialize(person);
         }
 
     }

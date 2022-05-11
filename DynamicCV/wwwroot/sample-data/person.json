@@ -9,8 +9,8 @@
       "Subject": "MYRSUB",
       "Role": "MyRole",
       "Customer": "abc",
-      "StartingTime": "2022-03-25T19:32:11.836+01:00",
-      "EndingTime": "2022-03-25T19:32:11.836+01:00",
+      "StartingDate": "2022-03-25T12:00:00.000Z",
+      "EndingDate": "2022-03-25T12:00:00.000Z",
       "UsedTechnologies": [ "ab", "cd" ],
       "DescriptionTitle": "MYDESCRIPTION",
       "DescriptionPoints": [ "tet", "test" ]
@@ -19,8 +19,8 @@
       "Subject": "MYRSUB",
       "Role": "MyRole",
       "Customer": "abc",
-      "StartingTime": "25.03.2022 00:00:00",
-      "EndingTime": "25.03.2022 00:00:00",
+      "StartingDate": "2022-03-25T12:00:00.000Z",
+      "EndingDate": "2022-03-25T12:00:00.000Z",
       "UsedTechnologies": [ "ab", "cd" ],
       "DescriptionTitle": "MYDESCRIPTION",
       "DescriptionPoints": [ "tet", "test" ]
@@ -29,8 +29,8 @@
       "Subject": "MYRSUB",
       "Role": "MyRole",
       "Customer": "abc",
-      "StartingTime": "2022-03-25T17:49:47.994477Z",
-      "EndingTime": "2022-03-25T17:49:47.994477+00:00Z",
+      "StartingDate": "2022-03-25T12:00:00.000Z",
+      "EndingDate": "2022-03-25T12:00:00.000Z",
       "UsedTechnologies": [ "ab", "cd" ],
       "DescriptionTitle": "MYDESCRIPTION",
       "DescriptionPoints": [ "tet", "test" ]
@@ -39,8 +39,48 @@
       "Subject": "MYRSUB",
       "Role": "MyRole",
       "Customer": "abc",
-      "StartingTime": "2022-03-25T17:49:47.994477+00:00",
-      "EndingTime": "2022-03-25T17:49:47.994477+00:00",
+      "StartingDate": "2022-03-25T12:00:00.000Z",
+      "EndingDate": "2022-03-25T12:00:00.000Z",
+      "UsedTechnologies": [ "ab", "cd" ],
+      "DescriptionTitle": "MYDESCRIPTION",
+      "DescriptionPoints": [ "tet", "test" ]
+    },
+    {
+      "Subject": "MYRSUB",
+      "Role": "MyRole",
+      "Customer": "abc",
+      "StartingDate": "2022-03-25T12:00:00.000Z",
+      "EndingDate": "2022-03-25T12:00:00.000Z",
+      "UsedTechnologies": [ "ab", "cd" ],
+      "DescriptionTitle": "MYDESCRIPTION",
+      "DescriptionPoints": [ "tet", "test" ]
+    },
+    {
+      "Subject": "MYRSUB",
+      "Role": "MyRole",
+      "Customer": "abc",
+      "StartingDate": "2022-03-25T12:00:00.000Z",
+      "EndingDate": "2022-03-25T12:00:00.000Z",
+      "UsedTechnologies": [ "ab", "cd" ],
+      "DescriptionTitle": "MYDESCRIPTION",
+      "DescriptionPoints": [ "tet", "test" ]
+    },
+    {
+      "Subject": "MYRSUB",
+      "Role": "MyRole",
+      "Customer": "abc",
+      "StartingDate": "2022-03-25T12:00:00.000Z",
+      "EndingDate": "2022-03-25T12:00:00.000Z",
+      "UsedTechnologies": [ "ab", "cd" ],
+      "DescriptionTitle": "MYDESCRIPTION",
+      "DescriptionPoints": [ "tet", "test" ]
+    },
+    {
+      "Subject": "MYRSUB",
+      "Role": "MyRole",
+      "Customer": "abc",
+      "StartingDate": "2022-03-25T12:00:00.000Z",
+      "EndingDate": "2022-03-25T12:00:00.000Z",
       "UsedTechnologies": [ "ab", "cd" ],
       "DescriptionTitle": "MYDESCRIPTION",
       "DescriptionPoints": [ "tet", "test" ]

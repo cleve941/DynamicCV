@@ -1,0 +1,27 @@
+﻿@using Models
+
+<div style="position:absolute; width:15px;">
+    @ChildContent
+</div>
+@if (!String.IsNullOrEmpty(Link))
+{
+    <div style="margin-left:30px;"><a target="_blank" href="@Link">@Text</a></div>
+}
+else
+{
+    <div style="margin-left:30px;">@Text</div>    
+}
+
+    
+
+
+
+@code {
+    // Demonstrates how a parent component can supply parameters
+    [Parameter]
+    public string Text { get; set; }
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+    [Parameter]
+    public string? Link { get; set; }
+}
