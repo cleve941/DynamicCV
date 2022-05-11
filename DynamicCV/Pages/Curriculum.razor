@@ -19,15 +19,3 @@
     
     }
 </div>
-@code {
-    private Person? person;
-
-    protected override async Task OnInitializedAsync()
-    {
-        person = await Http.GetFromJsonAsync<Person>("sample-data/person.json");
-        person.ProjectHistoryEntries[0].StartingDate = DateTime.Now;
-        string jsonString = JsonSerializer.Serialize(person);
-    }
-
-    
-}
