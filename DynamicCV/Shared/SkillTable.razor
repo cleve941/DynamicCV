@@ -1,0 +1,25 @@
+﻿@using Models
+
+@if (skills != null)
+{
+    <div class="row">
+        <TableCell Title="Schwerpunkte:">
+            @foreach (var entry in skills.Where(_ => _.Focused))
+            {
+                @entry.Name <br />
+            }
+        </TableCell>
+        <TableCell Title="weitere Skills">
+            @foreach (var entry in skills.Where(_ => !_.Focused))
+            {
+                @entry.Name <br />
+            }
+        </TableCell>
+    </div>
+}
+
+@code {
+    // Demonstrates how a parent component can supply parameters
+    [Parameter]
+    public List<Skills>? skills { get; set; }
+}

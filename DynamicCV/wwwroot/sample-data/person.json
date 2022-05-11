@@ -1,0 +1,149 @@
+﻿{
+  "Id": 1,
+  "Name": "Carsten Cleve",
+  "Year": "1993",
+  "Experience": "seit 2013",
+  "Role": "Senior Azure Consultant and Developer",
+  "ProjectHistoryEntries": [
+    {
+      "Subject": "MYRSUB",
+      "Role": "MyRole",
+      "Customer": "abc",
+      "StartingTime": "2022-03-25T19:32:11.836+01:00",
+      "EndingTime": "2022-03-25T19:32:11.836+01:00",
+      "UsedTechnologies": [ "ab", "cd" ],
+      "DescriptionTitle": "MYDESCRIPTION",
+      "DescriptionPoints": [ "tet", "test" ]
+    },
+    {
+      "Subject": "MYRSUB",
+      "Role": "MyRole",
+      "Customer": "abc",
+      "StartingTime": "25.03.2022 00:00:00",
+      "EndingTime": "25.03.2022 00:00:00",
+      "UsedTechnologies": [ "ab", "cd" ],
+      "DescriptionTitle": "MYDESCRIPTION",
+      "DescriptionPoints": [ "tet", "test" ]
+    },
+    {
+      "Subject": "MYRSUB",
+      "Role": "MyRole",
+      "Customer": "abc",
+      "StartingTime": "2022-03-25T17:49:47.994477Z",
+      "EndingTime": "2022-03-25T17:49:47.994477+00:00Z",
+      "UsedTechnologies": [ "ab", "cd" ],
+      "DescriptionTitle": "MYDESCRIPTION",
+      "DescriptionPoints": [ "tet", "test" ]
+    },
+    {
+      "Subject": "MYRSUB",
+      "Role": "MyRole",
+      "Customer": "abc",
+      "StartingTime": "2022-03-25T17:49:47.994477+00:00",
+      "EndingTime": "2022-03-25T17:49:47.994477+00:00",
+      "UsedTechnologies": [ "ab", "cd" ],
+      "DescriptionTitle": "MYDESCRIPTION",
+      "DescriptionPoints": [ "tet", "test" ]
+    }
+  ],
+  "Education": [
+    "Fachinformatiker Anwendungsentwicklung",
+    "Studium Wirtschaftsinformatik (Bachelor)"
+  ],
+  "Languages": [
+    { "Name": "Deutsch" },
+    { "Name": "Englisch" }
+  ],
+  "Branches": [ "Beratungsunternehmen", "EDV-Dienstleistungen", "Einzelhandel", "Support" ],
+  "Skills": [
+    {
+      "Name": "Azurs",
+      "Focused": true
+    },
+    {
+      "Name": ".NET Entwicklung",
+      "Focused": true
+    },
+    {
+      "Name": "Datenbanken",
+      "Focused": true
+    },
+    {
+      "Name": "Teilprojektleitung",
+      "Focused": false
+    },
+    {
+      "Name": "Agiles Projektmanagement nach Scrum",
+      "Focused": false
+    },
+    {
+      "Name": "Backend-Entwicklung",
+      "Focused": false
+    },
+    {
+      "Name": "Frontend-Entwicklung",
+      "Focused": false
+    },
+    {
+      "Name": "Infrastruktur in Azure",
+      "Focused": false
+    },
+    {
+      "Name": "CI/CD mit Azure DevOps",
+      "Focused": false
+    }
+  ],
+  "TechnicalArea": {
+    "TechnicalAreaEntries": [
+
+      {
+        "Name": "Programmiersprachen",
+        "Area": [ "C#", "JavaScript", "TypeScript" ]
+      },
+      {
+        "Name": "Datenbanken",
+        "Area": [ "MySQL", "MSSQL", "CosmosDb" ]
+      },
+      {
+        "Name": "Betriebssysteme",
+        "Area": [ "Windows 7", "Windows 10", "Windows 11", "Windows Server" ]
+      },
+      {
+        "Name": "Sonstiges",
+        "Area": [
+          ".NET",
+          ".NET Core",
+          "Application Insights",
+          "App Registrations",
+          "Azure Functions",
+          "Azure Key Vault",
+          "Azure Logic Apps",
+          "Azure Service Bus",
+          "Blazor",
+          "Caml Query",
+          "CI/CD",
+          "Cognitive Service",
+          "CSS",
+          "DevOps",
+          "Frontend Tests",
+          "HTML",
+          "jQuery",
+          "JSON",
+          "Linq",
+          "Nunit",
+          "Tests",
+          "ODATA",
+          "PnP",
+          "PowerShell",
+          "REACT",
+          "REST",
+          "Scrum",
+          "SharePoint",
+          "Wasserfall",
+          "WebServices",
+          "XML"
+        ]
+      }
+    ]
+  }
+}

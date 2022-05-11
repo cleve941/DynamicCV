@@ -1,0 +1,80 @@
+﻿@using Models
+
+    <div style="background-color:white">
+<MudTabs Outlined="true" Rounded="true" Border="true"
+    ApplyEffectsToContainer="true">
+    <MudTabPanel  Text="Curriculum" Icon="@Icons.Material.Filled.Api">
+            <MudCardHeader  Style="padding-bottom:0px;">
+                <CardHeaderContent>
+                    <MudText Typo="Typo.h6">Persönliche Daten</MudText>
+                </CardHeaderContent>
+            </MudCardHeader>
+            <MudCardContent>
+                <div class="container">
+                    <div class="row">
+                        <TableCell Title="Rolle:">
+                            @person?.Role
+                        </TableCell>
+                        <TableCell Title="Jahrgang:">
+                            @person?.Year
+                        </TableCell>
+                    </div>
+                    <MudDivider Class="MudDividerClass" />
+                    <div class="row">
+
+                        <TableCell Title="Projekt - / IT - Erfahrung:">
+                            @person?.Experience
+                        </TableCell>
+                        <TableCell Title="Sprachkentnisse:">
+                            @foreach (var language in @person?.Languages)
+                            {
+                                @language.Name <br />
+                            }
+
+                        </TableCell>
+                    </div>
+                    <MudDivider Class="MudDividerClass" />
+                    <SkillTable skills="@person?.Skills"></SkillTable>
+                    <MudDivider Class="MudDividerClass" />
+                    <div class="row">
+                        <TableCell Title="Ausbildung:">
+                            @foreach (var education in @person?.Education)
+                            {
+                                @education <br />
+                            }
+
+                        </TableCell>
+                        <TableCell Title="Branchenkenntnisse:">
+                            @foreach (var branch in @person?.Branches)
+                            {
+                                @branch <br />
+                            }
+                        </TableCell>
+
+                    </div>
+                </div>
+            </MudCardContent>
+    </MudTabPanel>
+    <MudTabPanel Text="Erfahrungsschwerpunkte & Skillset" Icon="@Icons.Material.Filled.BugReport">
+            <MudCardHeader Style="padding-bottom:0px;">
+                <CardHeaderContent>
+                    <MudText Typo="Typo.h6">Erfahrungsschwerpunkte & Skillset</MudText>
+                </CardHeaderContent>
+            </MudCardHeader>
+            <MudCardContent>
+                <TechnicalSkills area="@person?.TechnicalArea"></TechnicalSkills>
+            </MudCardContent>
+    </MudTabPanel>
+    <MudTabPanel Text="Projects" Icon="@Icons.Material.Filled.BugReport">
+        <ProjectHistory entries="@person?.ProjectHistoryEntries"></ProjectHistory>
+    </MudTabPanel>
+</MudTabs>
+</div>
+<br />
+
+
+@code {
+    // Demonstrates how a parent component can supply parameters
+    [Parameter]
+    public Person? person { get; set; }
+}

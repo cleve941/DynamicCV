@@ -1,0 +1,33 @@
+﻿@page "/CurriculumVitae"
+@inject HttpClient Http
+@using Models
+@using System.Text.Json;
+@using System.Text.Json.Serialization;
+<PageTitle>Curriculum Vitae</PageTitle>
+
+<div class="container">
+    <h1>Curriculum Vitae</h1>
+
+    @if (person == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+    
+        <CurriculumVitae person="@person"></CurriculumVitae>
+    
+    }
+</div>
+@code {
+    private Person? person;
+
+    protected override async Task OnInitializedAsync()
+    {
+        person = await Http.GetFromJsonAsync<Person>("sample-data/person.json");
+        person.ProjectHistoryEntries[0].StartingDate = DateTime.Now;
+        string jsonString = JsonSerializer.Serialize(person);
+    }
+
+    
+}

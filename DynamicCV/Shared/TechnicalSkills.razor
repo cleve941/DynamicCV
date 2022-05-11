@@ -1,0 +1,35 @@
+﻿@using Models
+@if (area != null)
+{
+    @foreach (var entry in area.TechnicalAreaEntries)
+    {
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <strong>@entry.Name</strong><br />
+
+                </div>
+                <div class="col-md">
+                    <div class="container">
+                        <div class="row">
+                            @foreach (var entryarea in entry.Area)
+                            {
+                                <div class="col-md-4">
+                                    @entryarea
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    }
+}
+
+
+@code {
+    // Demonstrates how a parent component can supply parameters
+    [Parameter]
+    public TechnicalArea? area { get; set; }
+}

@@ -1,0 +1,37 @@
+﻿@inherits LayoutComponentBase
+<MudThemeProvider Theme="@MyCustomTheme" IsDarkMode="false" />
+<MudDialogProvider />
+<MudSnackbarProvider />
+<div class="page ">
+    <div class="topbar mud-theme-primary">
+        <NavMenu />
+    </div>
+
+    <main>
+        <article class="content">
+            @Body
+        </article>
+    </main>
+</div>
+@code {
+    MudTheme MyCustomTheme = new MudTheme()
+        {
+            Palette = new Palette()
+            {
+                Primary = "#559e54",
+                Secondary = Colors.Green.Accent4,
+                TextPrimary = "#000000",
+                TextSecondary = "#ffffff",
+                AppbarBackground = Colors.Red.Default,
+                Background = Colors.Grey.Lighten1,
+                
+            },
+            PaletteDark = new Palette()
+            {
+                Primary = Colors.Blue.Lighten1,
+                Secondary = Colors.Green.Accent4,
+                Background = Colors.Grey.Darken3
+            }
+            
+        };
+   }

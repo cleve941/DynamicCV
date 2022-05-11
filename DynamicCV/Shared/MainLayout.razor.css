@@ -1,0 +1,44 @@
+/*https://www.w3schools.com/colors/colors_analogous.asp*/
+.page {
+    position: relative;
+    display: block;
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #F5F7D4;
+    box-shadow: 1px 1px 5px 5px #909090;
+    border-radius: 8px;
+}
+
+
+
+.topbar {
+    /*background-color: #559e54;
+    background: linear-gradient(to bottom, #98CA32 0%, #559e54 75%);
+    background: linear-gradient(to left, #e4f132 0%, #559e54 100%);
+    */ border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.top-row {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row ::deep a, .top-row ::deep .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+        .top-row ::deep a:hover, .top-row ::deep .btn-link:hover {
+            text-decoration: underline;
+        }
+
+        .top-row ::deep a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
