@@ -1,36 +1,84 @@
-﻿@inherits LayoutComponentBase
-<MudThemeProvider Theme="@MyCustomTheme" IsDarkMode="false" />
+﻿@using Blazored.LocalStorage
+@inherits LayoutComponentBase
+@inject Blazored.LocalStorage.ILocalStorageService localStore
+<MudThemeProvider Theme="@MyCustomTheme" IsDarkMode="@darkTheme" />
 <MudDialogProvider />
 <MudSnackbarProvider />
 <div class="page ">
-    <div class="topbar mud-theme-primary">
-        <NavMenu />
-    </div>
+   
+        <div class="topbar mud-theme-primary">
+            <NavMenu />
+        </div>
 
-    <main>
-        <article class="content">
+    <main class="mud-theme-tertiary" >
+        <article class="content mud-text-primary">
             @Body
         </article>
     </main>
+    <footer class="bottombar mud-theme-primary mud-text-primary">
+        <span style="line-height:38px;" class="mud-text-primary">
+            &nbsp;&nbsp; ©️ Carsten Cleve | 2022 | Made with Blazor
+        </span>
+        <MudSwitch @bind-Checked="@darkTheme" Label="Dark Theme" Class="mud-text-primary" Style="float:right;"/>
+    </footer>
 </div>
 @code {
+    private bool _darkTheme = false;
+    private bool darkTheme {
+        get
+        {
+            return _darkTheme;
+        }
+        set
+        {
+            _darkTheme = value;
+            if (value)
+            {
+                localStore.SetItemAsStringAsync("theme","dark");
+                
+            }
+            else
+            {
+                localStore.SetItemAsStringAsync("theme","light");
+            }
+            
+        } 
+    } 
+    protected override async Task OnInitializedAsync()
+    {
+        darkTheme = true;
+        var storagedTheme = await localStore.GetItemAsync<string>("theme");
+        if(storagedTheme == "dark")
+        {
+            darkTheme = true;
+        }else{
+            darkTheme = false;
+        }
+    }
+   
     MudTheme MyCustomTheme = new MudTheme()
         {
             Palette = new Palette()
             {
                 Primary = "#559e54",
                 Secondary = Colors.Green.Accent4,
-                TextPrimary = "#000000",
+                Tertiary = "#F5F7D4",
+                TextPrimary = "#0A3409",
                 TextSecondary = "#ffffff",
-                AppbarBackground = Colors.Red.Default,
                 Background = Colors.Grey.Lighten1,
+                Surface = "#ffffff"
+                
                 
             },
             PaletteDark = new Palette()
             {
-                Primary = Colors.Blue.Lighten1,
+                Primary = Colors.Grey.Darken4,
                 Secondary = Colors.Green.Accent4,
-                Background = Colors.Grey.Darken3
+                Tertiary = Colors.Grey.Darken3,
+                Background = "#000000",
+                TextPrimary = "#ffffff",
+                TextSecondary = "#000000",
+                Surface = Colors.Grey.Darken2
             }
             
         };

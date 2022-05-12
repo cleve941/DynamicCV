@@ -4,7 +4,6 @@
     display: block;
     max-width: 850px;
     margin: 0 auto;
-    background-color: #F5F7D4;
     box-shadow: 1px 1px 5px 5px #909090;
     border-radius: 8px;
 }
@@ -17,6 +16,13 @@
     background: linear-gradient(to left, #e4f132 0%, #559e54 100%);
     */ border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+}
+.bottombar {
+    /*background-color: #559e54;
+    background: linear-gradient(to bottom, #98CA32 0%, #559e54 75%);
+    background: linear-gradient(to left, #e4f132 0%, #559e54 100%);
+    */ border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .top-row {
