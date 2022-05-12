@@ -11,26 +11,59 @@
                         <MudCardHeader>
 
                             <CardHeaderContent>
-                                <MudText>@entry.StartingDate - @entry.EndingDate</MudText>
+                                <MudText>
+                                    @entry.StartingDate - @(entry.EndingDate == null ? "jetzt" : entry.EndingDate)
+                                </MudText>
                                 <MudText>@entry.Subject</MudText>
                             </CardHeaderContent>
                         </MudCardHeader>
                         <MudCardContent>
-                            <MudText Typo="Typo.body2">Kunde:</MudText>
-                            <MudText Typo="Typo.body2">@entry.Customer</MudText>
-                            
-                            <MudText Typo="Typo.body2">@entry.DescriptionTitle</MudText>
-                            <MudText Typo="Typo.body2">Rolle:</MudText>
-                            <MudText Typo="Typo.body2">@entry.Role</MudText>
-                            <MudText Typo="Typo.body2">Benutzte Technologien:</MudText>
-                            @foreach (var tech in entry.UsedTechnologies)
-                            {
-                                <MudText Typo="Typo.body2">@tech</MudText>
-                            }
-                             @foreach (var description in entry.DescriptionPoints)
-                            {
-                                <MudText Typo="Typo.body2">@description</MudText>
-                            }
+                            <div class="container" style="padding-left:0px; padding-right:0px;">
+
+                                <div class="row" style="padding-left:0px; padding-right:0px;">
+                                    <div class="col-6">
+                                        <MudText Typo="Typo.button">Kunde:</MudText>
+                                        <MudText Typo="Typo.body2">@entry.Customer</MudText>
+                                    </div>
+                                    <div class="col-6">
+                                        <MudText Typo="Typo.button">Rolle:</MudText>
+                                        <MudText Typo="Typo.body2">@entry.Role</MudText>
+                                    </div>
+                                </div>
+                                <MudDivider /><br />
+                                <div class="row" style="padding-left:0px; padding-right:0px;">
+                                    <div class="col-12">
+                                        <MudText Typo="Typo.button">Benutzte Technologien:</MudText>
+                                    </div>
+                                    @foreach (var tech in entry.UsedTechnologies)
+                                    {
+                                        <div class="col-6">
+                                            <MudText Typo="Typo.body2">@tech</MudText>
+                                        </div>
+                                    }
+                                </div>
+                                <MudDivider /><br />
+                                <div class="row" style="padding-left:0px; padding-right:0px;">
+                                    <div class="col-12">
+                                        <MudText Typo="Typo.button">Aufgabenbereich</MudText>
+                                    </div>
+                                    <div class="col-12">
+                                        <MudText Typo="Typo.body2">@entry.DescriptionTitle</MudText>
+                                    </div>
+                                    <div class="col-12">
+                                        <ul>
+                                        @foreach (var description in entry.DescriptionPoints)
+                                        {
+                                            <li>
+                                                <MudText Typo="Typo.body2">@description</MudText>
+                                            </li>
+                                        }
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </MudCardContent>
                     </MudCard>
                 </div>

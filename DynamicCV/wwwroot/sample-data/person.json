@@ -6,84 +6,360 @@
   "Role": "Senior Azure Consultant and Developer",
   "ProjectHistoryEntries": [
     {
-      "Subject": "MYRSUB",
-      "Role": "MyRole",
-      "Customer": "abc",
-      "StartingDate": "2022-03-25T12:00:00.000Z",
-      "EndingDate": "2022-03-25T12:00:00.000Z",
-      "UsedTechnologies": [ "ab", "cd" ],
-      "DescriptionTitle": "MYDESCRIPTION",
-      "DescriptionPoints": [ "tet", "test" ]
+      "Subject": "Support/Übergabe der digitalen Akten",
+      "Role": "Entwickler / Consultant",
+      "Customer": "Finanzwesen",
+      "StartingDate": "2022-03-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [ "SharePoint Online", "Kendo UI", "Azure", "Enterprise Applications", "Azure App Registrations", "SQL", "Service Bus", "Azure Function App", "PowerShell", ".Net Core", "Odata", "Entity Framework", "CI/CD", "ARM-Templates", "DevOps" ],
+      "DescriptionTitle": "",
+      "DescriptionPoints": [ "Übergabe der Umsetzung an die internen Kollegen", "Workshops und Schulungen zu den Umsetzungen", "Abarbeitung von Bugs und Neuerungswünschen" ]
     },
     {
-      "Subject": "MYRSUB",
-      "Role": "MyRole",
-      "Customer": "abc",
-      "StartingDate": "2022-03-25T12:00:00.000Z",
-      "EndingDate": "2022-03-25T12:00:00.000Z",
-      "UsedTechnologies": [ "ab", "cd" ],
-      "DescriptionTitle": "MYDESCRIPTION",
-      "DescriptionPoints": [ "tet", "test" ]
+      "Subject": "Zeiterfassung MyTime",
+      "Role": "Entwickler / technischer Projektleiter",
+      "Customer": "Energiedienstleister",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [ "ASP.Net", "C#", "Entity Framework", "SQL", "Console Applications", "IIS", "DevOps" ],
+      "DescriptionTitle": "Weiterentwickeln der MyTime Solution",
+      "DescriptionPoints": [ "Erstellen der Work Items", "Versprinten dieser", "Deployment beim Kunden", "Testen", "Entwicklung", "Datenbankanpassungen" ]
     },
     {
-      "Subject": "MYRSUB",
-      "Role": "MyRole",
-      "Customer": "abc",
-      "StartingDate": "2022-03-25T12:00:00.000Z",
-      "EndingDate": "2022-03-25T12:00:00.000Z",
-      "UsedTechnologies": [ "ab", "cd" ],
-      "DescriptionTitle": "MYDESCRIPTION",
-      "DescriptionPoints": [ "tet", "test" ]
+      "Subject": "Digitale Kreditakte",
+      "Role": "Entwickler / Consultant",
+      "Customer": "Finanzwesen",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": "2022-03-01T12:00:00.000Z",
+      "UsedTechnologies": [ "SharePoint Online", "Kendo UI", "Azure Enterprise Applications", "Azure App Registrations", "SQL", "Service Bus", "Azure Function App", "PowerShell", ".Net Core", "Odata", "Entity Framework", "CI/CD", "ARM-Templates", "DevOps", "Office Addins" ],
+      "DescriptionTitle": "Erstellung von Cloud Anwendungen in Form einer digitalen Kreditakte",
+      "DescriptionPoints": [
+        "Erstellen einer Dokumentenverwaltung anhand eines Javascript Grids",
+        "Anpassungsmöglichkeiten und Erweiterungen für SharePoint Online",
+        "Speichern der MetaDaten in einer Datenbank aufgrund von Einschränkungen im Sharepoint",
+        "Arbeiten mit SiteTemplates mithilfe von PnP",
+        "Asnychrone Abarbeitung der Tasks mithilfe eines ServiceBus",
+        "Erstellen eines Outlook Addins mit Upload Funktionalitäten",
+        "Rollenberechtigungskonzept mithilfe vom Azure App Registrierungen und Enterprise Applications"
+      ]
     },
     {
-      "Subject": "MYRSUB",
-      "Role": "MyRole",
-      "Customer": "abc",
-      "StartingDate": "2022-03-25T12:00:00.000Z",
-      "EndingDate": "2022-03-25T12:00:00.000Z",
-      "UsedTechnologies": [ "ab", "cd" ],
-      "DescriptionTitle": "MYDESCRIPTION",
-      "DescriptionPoints": [ "tet", "test" ]
+      "Subject": "Digitale Personalakte",
+      "Role": "Consultant / Entwickler",
+      "Customer": "Finanzwesen",
+      "StartingDate": "2020-01-01T12:00:00.000Z",
+      "EndingDate": "2020-12-01T12:00:00.000Z",
+      "UsedTechnologies": [ "SharePoint Online", "Azure Enterprise Applications", "Azure App Registrations", "SQL", "Service Bus", "Azure Function App", "PowerShell", ".Net Core", "Odata", "Entity Framework", "CI/CD", "ARM-Templates", "DevOps", "Office Addins", "Telerik Kendo Ui" ],
+      "DescriptionTitle": "Erstellung von Cloud Anwendungen in Form einer digitalen Personalakte",
+      "DescriptionPoints": [
+        "Erstellen einer Dokumentenbearbeitung anhand eines Javascript Grids",
+        "Anpassungsmöglichkeiten und Erweiterungen für SharePoint Online",
+        "Speichern der MetaDaten in einer Datenbank aufgrund von Einschränkungen im Sharepoint",
+        "Arbeiten mit SiteTemplates mithilfe von PnP",
+        "Asnychrone Abarbeitung der Tasks mithilfe eines ServiceBus",
+        "Erstellen eines Outlook Addins mit Upload Funktionalitäten in der Akte",
+        "Rollenberechtigungskonzept mithilfe vom Azure App Registrierungen und Enterprise Applications"
+      ]
     },
     {
-      "Subject": "MYRSUB",
-      "Role": "MyRole",
-      "Customer": "abc",
-      "StartingDate": "2022-03-25T12:00:00.000Z",
-      "EndingDate": "2022-03-25T12:00:00.000Z",
-      "UsedTechnologies": [ "ab", "cd" ],
-      "DescriptionTitle": "MYDESCRIPTION",
-      "DescriptionPoints": [ "tet", "test" ]
+      "Subject": "Digitale Treasuryakte",
+      "Role": "Entwickler / Consultant",
+      "Customer": "Finanzwesen",
+      "StartingDate": "2019-06-01T12:00:00.000Z",
+      "EndingDate": "2019-12-01T12:00:00.000Z",
+      "UsedTechnologies": [ "SharePoint Online", "Azure App Registrations", "SQL", "Azure Cosmos DB", "Azure Function App", "PowerShell", ".Net Core", "Odata", "Entity Framework", "CI/CD", "ARM-Templates", "DevOps", "PnP Templates", "Telerik Kendo Ui" ],
+      "DescriptionTitle": "Erstellung von Cloud Anwendungen in Form eines Dokumentenablagesystems, Erstellung von Workflows",
+      "DescriptionPoints": [
+        "Erstellen einer Dokumentenbearbeitung anhand eines Javascript Grids",
+        "Anpassungsmöglichkeiten und Erweiterungen für SharePoint Online",
+        "Speichern der MetaDaten in einer CosmosDb aufgrund von Einschränkungen im Sharepoint",
+        "Arbeiten mit SiteTemplates mithilfe von PnP" 
+      ]
     },
     {
-      "Subject": "MYRSUB",
-      "Role": "MyRole",
-      "Customer": "abc",
-      "StartingDate": "2022-03-25T12:00:00.000Z",
-      "EndingDate": "2022-03-25T12:00:00.000Z",
-      "UsedTechnologies": [ "ab", "cd" ],
-      "DescriptionTitle": "MYDESCRIPTION",
-      "DescriptionPoints": [ "tet", "test" ]
+      "Subject": "Zeiterfassung MyTime",
+      "Role": "Entwickler",
+      "Customer": "Energiedienstleister",
+      "StartingDate": "2019-05-01T12:00:00.000Z",
+      "EndingDate": "2020-07-01T12:00:00.000Z",
+      "UsedTechnologies": [ "ASP.Net", "C#", "Entity Framework", "SQL", "Console Applications", "IIS", "DevOps" ],
+      "DescriptionTitle": "Weiterentwicklen der MyTime Solution",
+      "DescriptionPoints": [
+        "Anpassen der Datenbank",
+        "Anpassungen an der Frontend, Hinzufügen neuer Funktionen zum Front- und Backend",
+        "Automatisierte Deployments auf Testsystem",
+        "Weiterentwicklung der Reportingfunktionen und andere Anpassungen"
+      ]
     },
     {
-      "Subject": "MYRSUB",
-      "Role": "MyRole",
-      "Customer": "abc",
-      "StartingDate": "2022-03-25T12:00:00.000Z",
-      "EndingDate": "2022-03-25T12:00:00.000Z",
-      "UsedTechnologies": [ "ab", "cd" ],
-      "DescriptionTitle": "MYDESCRIPTION",
-      "DescriptionPoints": [ "tet", "test" ]
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
     },
     {
-      "Subject": "MYRSUB",
-      "Role": "MyRole",
-      "Customer": "abc",
-      "StartingDate": "2022-03-25T12:00:00.000Z",
-      "EndingDate": "2022-03-25T12:00:00.000Z",
-      "UsedTechnologies": [ "ab", "cd" ],
-      "DescriptionTitle": "MYDESCRIPTION",
-      "DescriptionPoints": [ "tet", "test" ]
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
+    },
+    {
+      "Subject": "",
+      "Role": "",
+      "Customer": "",
+      "StartingDate": "2021-01-01T12:00:00.000Z",
+      "EndingDate": null,
+      "UsedTechnologies": [],
+      "DescriptionTitle": "",
+      "DescriptionPoints": []
     }
   ],
   "Education": [
