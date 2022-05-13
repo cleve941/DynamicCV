@@ -71,3 +71,23 @@ a, .btn-link {
     height: 2px;
     margin: 5px 0px;
 }
+.mud-nav-link {
+    color: var(--mud-palette-text-primary) !important;
+}
+.mud-nav-link.active {
+    background-color: rgba(255,255,255,0.25)!important;
+    
+}
+
+    .mud-nav-link:hover {
+        color: var(--mud-palette-text-primary) !important;
+        background-color: rgba(255,255,255,0.1)!important;
+    }
+
+.mud-nav-link:hover:not(.mud-nav-link-disabled) {
+    background-color: rgba(255,255,255,0.1)!important;
+}
+header div.mud-toolbar {
+    padding-left: 12px;
+    padding-right: 12px;
+}

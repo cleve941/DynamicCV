@@ -5,12 +5,20 @@
 <MudDialogProvider />
 <MudSnackbarProvider />
 <div class="page ">
-   
-        <div class="topbar mud-theme-primary">
-            <NavMenu />
-        </div>
 
-    <main class="mud-theme-tertiary" >
+    <div class="topbar mud-theme-primary">
+         @*<NavMenu />*@
+        <MudAppBar Style="border-top-left-radius: 8px !important;border-top-right-radius: 8px !important;" Color="Color.Primary" Fixed="false">
+            <MudNavLink Style="border-radius: 4px !important;"  Icon="@Icons.Filled.Castle" Match="NavLinkMatch.All" Href="/">Start</MudNavLink>
+            <MudNavLink Style="border-radius: 4px !important;" Icon="@Icons.Filled.Brush" Href="/counter">Blogs</MudNavLink>
+            <MudNavLink  Style="border-radius: 4px !important;" Icon="@Icons.Rounded.MenuBook" Href="/CurriculumVitae">Curriculum</MudNavLink>
+
+        </MudAppBar>
+    </div>
+
+
+
+    <main class="mud-theme-tertiary">
         <article class="content mud-text-primary">
             @Body
         </article>
@@ -19,12 +27,13 @@
         <span style="line-height:38px;" class="mud-text-primary">
             &nbsp;&nbsp; ©️ Carsten Cleve | 2022 | Made with Blazor
         </span>
-        <MudSwitch @bind-Checked="@darkTheme" Label="Dark Theme" Class="mud-text-primary" Style="float:right;"/>
+        <MudSwitch @bind-Checked="@darkTheme" Label="Dark Theme" Class="mud-text-primary" Style="float:right;" />
     </footer>
 </div>
 @code {
     private bool _darkTheme = true;
-    private bool darkTheme {
+    private bool darkTheme
+    {
         get
         {
             return _darkTheme;
@@ -34,28 +43,31 @@
             _darkTheme = value;
             if (value)
             {
-                localStore.SetItemAsStringAsync("theme","dark");
-                
+                localStore.SetItemAsStringAsync("theme", "dark");
+
             }
             else
             {
-                localStore.SetItemAsStringAsync("theme","light");
+                localStore.SetItemAsStringAsync("theme", "light");
             }
-            
-        } 
-    } 
+
+        }
+    }
+
     protected override async Task OnInitializedAsync()
     {
         darkTheme = true;
         var storagedTheme = await localStore.GetItemAsync<string>("theme");
-        if(storagedTheme == "dark")
+        if (storagedTheme == "dark")
         {
             darkTheme = true;
-        }else{
+        }
+        else
+        {
             darkTheme = false;
         }
     }
-   
+
     MudTheme MyCustomTheme = new MudTheme()
         {
             Palette = new Palette()
@@ -66,9 +78,11 @@
                 TextPrimary = "#0A3409",
                 TextSecondary = "#ffffff",
                 Background = Colors.Grey.Lighten1,
-                Surface = "#ffffff"
+                Surface = "#ffffff",
+                DrawerIcon="#0A3409",
                 
-                
+
+
             },
             PaletteDark = new Palette()
             {
@@ -78,8 +92,9 @@
                 Background = "#000000",
                 TextPrimary = "#ffffff",
                 TextSecondary = "#000000",
-                Surface = Colors.Grey.Darken2
+                Surface = Colors.Grey.Darken2,
+                DrawerIcon="#ffffff"
             }
-            
+
         };
    }
