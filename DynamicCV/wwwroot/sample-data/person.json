@@ -73,7 +73,7 @@
         "Erstellen einer Dokumentenbearbeitung anhand eines Javascript Grids",
         "Anpassungsmöglichkeiten und Erweiterungen für SharePoint Online",
         "Speichern der MetaDaten in einer CosmosDb aufgrund von Einschränkungen im Sharepoint",
-        "Arbeiten mit SiteTemplates mithilfe von PnP" 
+        "Arbeiten mit SiteTemplates mithilfe von PnP"
       ]
     },
     {
@@ -92,274 +92,222 @@
       ]
     },
     {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
+      "Subject": "E-Learning Management System",
+      "Role": "Projektleiter Entwicklung / Entwickler",
+      "Customer": "Stadtverwaltung",
+      "StartingDate": "2018-07-01T12:00:00.000Z",
+      "EndingDate": "2019-07-01T12:00:00.000Z",
+      "UsedTechnologies": [ "C#", "React", "ASP.NET", "DevOps", "CI/CD", "Office Fabric Ui", "SQL", "IIS" ],
+      "DescriptionTitle": "Entwicklung eines E-Learning-Management Systems",
+      "DescriptionPoints": [
+        "Erstellung und Bearbeitung von Online und Präsenzkursen",
+        "Datenhaltung (SQL)",
+        "Buchungssystem für diese Kurse",
+        "Untergliederung in Front- (React) und Backend (ASP.Net Web Api)"
+      ]
+    },
+    {
+      "Subject": "Migration von SP 2013 nach SP Online",
+      "Role": "Entwickler / Entwicklungsleiter",
+      "Customer": "Managementberatung",
+      "StartingDate": "2019-01-01T12:00:00.000Z",
+      "EndingDate": "2019-04-01T12:00:00.000Z",
+      "UsedTechnologies": [ "SharePoint 2013", "SharePoint Online", "O365", "PnP", "PowerShell", "DevOps" ],
+      "DescriptionTitle": "Migration von Sharepoint 2013 nach Sharepoint Online",
+      "DescriptionPoints": [
+        "Migration von bisher bestehenden Daten",
+        "Anpassungsmöglichkeiten und Erweiterungen für SharePoint Online",
+        "Hilfe bei Umstellungen in der Berechtigung und Automatisierung beim Erstellen von Sites",
+        "Arbeiten mit SiteTemplates mithilfe von PnP"
+      ]
+    },
+    {
+      "Subject": "SharePoint Intranet",
+      "Role": "Entwickler",
+      "Customer": "Stadtverwaltung",
+      "StartingDate": "2019-01-01T12:00:00.000Z",
+      "EndingDate": "2019-02-01T12:00:00.000Z",
+      "UsedTechnologies": [ "SharePoint 2016", "C#", "DevOps", "Scrum" ],
+      "DescriptionTitle": "Weiterentwicklung einer SharePoint Solution",
+      "DescriptionPoints": [
+        "Weiterentwicklung des Designs",
+        "Implementierung von weiteren Funktionalitäten",
+        "Behebung von Fehlern"
+      ]
+    },
+    {
+      "Subject": "Digitaler Posteingang",
+      "Role": "Entwickler",
+      "Customer": "RealCore Group",
+      "StartingDate": "2018-08-01T12:00:00.000Z",
+      "EndingDate": "2018-12-01T12:00:00.000Z",
+      "UsedTechnologies": [ "SharePoint Online", "C#", "DevOps", "Scrum" ],
+      "DescriptionTitle": "Entwicklung eines Digitalen Posteingangs",
+      "DescriptionPoints": [
+        "Entwicklen eines SPFX Webparts für Sharepoint Online mit React",
+        "Entwickeln eines Custom Edit Form"
+      ]
+    },
+    {
+      "Subject": "SharePoint Intranet",
+      "Role": "Entwickler / Entwicklungsleiter",
+      "Customer": "Stadtverwaltung",
+      "StartingDate": "2018-07-01T12:00:00.000Z",
+      "EndingDate": "2018-12-01T12:00:00.000Z",
+      "UsedTechnologies": [ "SharePoint 2016", "C#", "DevOps", "Scrum" ],
+      "DescriptionTitle": "Entwicklung einer Sharepointsolution",
+      "DescriptionPoints": [
+        "Entwicklung eines neuen Designs",
+        "Programmierung einer Navigation und von Breadcrumbs",
+        "Erstellung von SiteTemplates und Custom Display Templates"
+      ]
+    },
+    {
+      "Subject": "Zeiterfassung MyTime",
+      "Role": "Entwickler",
+      "Customer": "Energiedienstleister",
+      "StartingDate": "2018-06-01T12:00:00.000Z",
+      "EndingDate": "2018-08-01T12:00:00.000Z",
+      "UsedTechnologies": [ "ASP.Net", "C#", "Entity Framework", "SQL", "Console Applications", "IIS", "DevOps", "SharePoint 2010" ],
+      "DescriptionTitle": "Herauslösen der Zeiterfassungsapp MyTime aus dem Sharepoint",
+      "DescriptionPoints": [
+        "Herauslösen der Solution aus dem Sharepoint",
+        "Erstellen der Architektur für Test- und Produktionssystem",
+        "Anpassungen an der Datenbank",
+        "Weiterentwicklung der Reportingfunktionen und andere Anpassungen",
+        "Datenübernahme aus der Sharepoint App"
+      ]
+    },
+    {
+      "Subject": "Weiterentwicklung der digitalen Kreditakte",
+      "Role": "Entwickler",
+      "Customer": "Finanzwesen",
+      "StartingDate": "2018-02-01T12:00:00.000Z",
+      "EndingDate": "2018-06-01T12:00:00.000Z",
+      "UsedTechnologies": [ "SharePoint 2010", "Console Application", "Team Foundation Server", "SCRUM", "REST" ],
+      "DescriptionTitle": "Weiterentwicklung der digitalen Kreditakte",
+      "DescriptionPoints": [
+        "Weiterentwickeln der SharePoint Solution",
+        "Migration von einem Web in verschiedene SiteCollections",
+        "Ausgliedern von Funktionen in andere Datenbanken und Zugriff auf diese vom SharePoint",
+        "Ausgliedern von Features"
+      ]
+    },
+    {
+      "Subject": "Zeiterfassung MyTime",
+      "Role": "Entwicklung",
+      "Customer": "Energiedienstleiser",
+      "StartingDate": "2017-11-01T12:00:00.000Z",
+      "EndingDate": "2018-01-01T12:00:00.000Z",
+      "UsedTechnologies": [ "SharePoint 2010", "JQuery", "SQL" ],
+      "DescriptionTitle": "Weiterentwicklung und Bugbehebung der Zeiterfassung MyTime",
+      "DescriptionPoints": [
+        "Weiterentwickeln der Sharepoint Solution",
+        "Behebung von Bugs",
+        "Anpassungen an der Datenbank"
+      ]
+    },
+    {
+      "Subject": "Eventbooking Lösung im SharePoint",
+      "Role": "Entwickler",
+      "Customer": "Groß- und Einzelhändler",
+      "StartingDate": "2017-09-01T12:00:00.000Z",
+      "EndingDate": "2017-09-01T12:00:00.000Z",
+      "UsedTechnologies": [ "SharePoint 2013", "Javascript" ],
+      "DescriptionTitle": "Weiterentwicklung einer SharePoint 2013 Lösung für das Eventbooking",
+      "DescriptionPoints": [
+        "Weiterentwicklung einer SharePoint 2013 Lösung",
+        "Implementierung von JavaScript Frameworks",
+        "Eintragung in Listen via Rest-API"
+      ]
+    },
+    {
+      "Subject": "Modernisierung Vertriebscockpit",
+      "Role": "Entwickler / techn. Projektleiter",
+      "Customer": "Warenhauskette",
+      "StartingDate": "2017-06-01T12:00:00.000Z",
+      "EndingDate": "2017-09-01T12:00:00.000Z",
+      "UsedTechnologies": [ "SharePoint 2016", "SQL", "MS Project", "Visio", "JQuery" ],
+      "DescriptionTitle": "Modernisierung des Vertriebscockpits mithilfe von SharePoint 2016",
+      "DescriptionPoints": [
+        "Installation und Konfiguration eines SharePoint 2016 Server",
+        "Erstellung von Site-Templates",
+        "Nutzung von externen Datenquellen für den SharePoint 2016",
+        "Konzeption und Implementierung einer Metadatenverwaltungsstruktur",
+        "SharePoint Branding (Master Page Customizing)",
+        "Erstellung eines Rollenkonzepts",
+        "Nutzung von externen JavaScript Frameworks",
+        "Erstellung von Formen und Abrufen von Daten via Rest-Api und ajax Calls"
+      ]
+    },
+    {
+      "Subject": "Betriebshandbuch für LS ONE",
+      "Role": "Berater",
+      "Customer": "Groß- und Einzelhändler",
+      "StartingDate": "2017-03-01T12:00:00.000Z",
+      "EndingDate": "2017-06-01T12:00:00.000Z",
+      "UsedTechnologies": [ "MS Word", "Visio" ],
+      "DescriptionTitle": "Mitentwicklung eines Betriebshandbuches für das Projekt LS ONE",
       "DescriptionPoints": []
     },
     {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
+      "Subject": "HBS (HR Anwendungssoftware)",
+      "Role": "Entwickler",
+      "Customer": "RealCore Group",
+      "StartingDate": "2017-01-01T12:00:00.000Z",
+      "EndingDate": "2017-03-01T12:00:00.000Z",
+      "UsedTechnologies": [".Net Core","MVC", "Javascript"],
+      "DescriptionTitle": "Weiterentwicklung und Bugbehebung der HBS (HR Anwendungs-Software)",
+      "DescriptionPoints": [
+        "Weiterentwickeln der Sharepoint Solution",
+        "Behebung von Bugs",
+        "Erstellung eines neuen Designs für die Oberfläche"
+      ]
+    },
+    {
+      "Subject": "Eventbooking in SharePoint",
+      "Role": "Entwickler",
+      "Customer": "Groß- und Einzelhändler",
+      "StartingDate": "2017-01-01T12:00:00.000Z",
+      "EndingDate": "2017-06-01T12:00:00.000Z",
+      "UsedTechnologies": [ "SharePoint 2013", "Javascript" ],
+      "DescriptionTitle": "Weiterentwicklung einer SharePoint 2013 Lösung für das Eventbooking",
+      "DescriptionPoints": [
+        "Implementierung von JavaScript Frameworks"
+      ]
+    },
+    {
+      "Subject": "Bruttogrundflächenrechner",
+      "Role": "Entwickler",
+      "Customer": "GEOSOFT Vermessungssysteme GmbH",
+      "StartingDate": "2016-03-01T12:00:00.000Z",
+      "EndingDate": "2016-06-01T12:00:00.000Z",
+      "UsedTechnologies": [ "WinForms", "JSON", "C#" ],
+      "DescriptionTitle": "Win Forms Programm zur Berechnung von Bruttogrund- und Wohnflächen und Anbindung über Schnittstellen zu anderen Programmen",
       "DescriptionPoints": []
     },
     {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
+      "Subject": "Support",
+      "Role": "Support",
+      "Customer": "GEOSOFT Vermessungssysteme GmbH",
+      "StartingDate": "2013-08-01T12:00:00.000Z",
+      "EndingDate": "2016-06-01T12:00:00.000Z",
+      "UsedTechnologies": [ "Visual Studio", "SQL", "PowerShell" ],
+      "DescriptionTitle": "Support für das Büroverwaltungsprogramm GEORG",
       "DescriptionPoints": []
     },
     {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
-    },
-    {
-      "Subject": "",
-      "Role": "",
-      "Customer": "",
-      "StartingDate": "2021-01-01T12:00:00.000Z",
-      "EndingDate": null,
-      "UsedTechnologies": [],
-      "DescriptionTitle": "",
-      "DescriptionPoints": []
+      "Subject": "Kostenkalkulation Lizenzen",
+      "Role": "Entwickler",
+      "Customer": "GEOSOFT Vermessungssysteme GmbH",
+      "StartingDate": "2015-09-01T12:00:00.000Z",
+      "EndingDate": "2015-09-01T12:00:00.000Z",
+      "UsedTechnologies": [ "JSON", "PowerShell", "Visual Studio" ],
+      "DescriptionTitle": "Programm zur Kalkulation von Lizenzkosten",
+      "DescriptionPoints": [
+        "Win Forms Programmzur Kostenkalkulation von Programmen und Lizenzen der Firma GEOSOFT Vermessungssysteme",
+         "Design angepasst für Tablets mit diversen Auflösungen"
+      ]
     }
   ],
   "Education": [
@@ -373,7 +321,7 @@
   "Branches": [ "Beratungsunternehmen", "EDV-Dienstleistungen", "Einzelhandel", "Support" ],
   "Skills": [
     {
-      "Name": "Azurs",
+      "Name": "Azure",
       "Focused": true
     },
     {

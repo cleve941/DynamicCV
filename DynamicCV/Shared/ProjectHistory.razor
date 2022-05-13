@@ -8,16 +8,17 @@
             {
                 <div class="col-md-6" style="padding-top:12px;">
                     <MudCard Class="mud-theme-primary">
-                        <MudCardHeader>
+                        <MudCardHeader Style="padding-bottom: 3px;">
 
                             <CardHeaderContent>
                                 <MudText>
-                                    @entry.StartingDate - @(entry.EndingDate == null ? "jetzt" : entry.EndingDate)
+                                    @entry.StartingDate?.ToString("MM/yyyy") - @(entry.EndingDate == null ? "jetzt" : entry.EndingDate?.ToString("MM/yyyy"))
                                 </MudText>
                                 <MudText>@entry.Subject</MudText>
                             </CardHeaderContent>
                         </MudCardHeader>
-                        <MudCardContent>
+                        <MudDivider Style="height:2px;" Class="MudDividerClass" />
+                        <MudCardContent Style="padding-top: 3px;">
                             <div class="container" style="padding-left:0px; padding-right:0px;">
 
                                 <div class="row" style="padding-left:0px; padding-right:0px;">
@@ -30,7 +31,7 @@
                                         <MudText Typo="Typo.body2">@entry.Role</MudText>
                                     </div>
                                 </div>
-                                <MudDivider /><br />
+                                <MudDivider Class="MudDividerClass" />
                                 <div class="row" style="padding-left:0px; padding-right:0px;">
                                     <div class="col-12">
                                         <MudText Typo="Typo.button">Benutzte Technologien:</MudText>
@@ -42,7 +43,7 @@
                                         </div>
                                     }
                                 </div>
-                                <MudDivider /><br />
+                                <MudDivider Class="MudDividerClass" />
                                 <div class="row" style="padding-left:0px; padding-right:0px;">
                                     <div class="col-12">
                                         <MudText Typo="Typo.button">Aufgabenbereich</MudText>

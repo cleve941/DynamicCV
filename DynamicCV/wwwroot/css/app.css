@@ -69,7 +69,7 @@ a, .btn-link {
 .MudDividerClass {
     background-color: black;
     height: 2px;
-    margin: 5px 0px;
+    margin: 5px 0px !important;
 }
 .mud-nav-link {
     color: var(--mud-palette-text-primary) !important;
@@ -90,4 +90,10 @@ a, .btn-link {
 header div.mud-toolbar {
     padding-left: 12px;
     padding-right: 12px;
+}
+.mud-tab.mud-tab-active.mud-ripple {
+    color: var(--mud-palette-text-primary) !important;
+}
+.mud-tab-slider.mud-tab-slider-horizontal {
+    background: var(--mud-palette-text-primary) !important;
 }
