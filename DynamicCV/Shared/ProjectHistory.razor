@@ -6,7 +6,9 @@
 
             @foreach (var entry in entries)
             {
-                <div class="col-md-6" style="padding-top:12px;">
+                if(entry != null)
+                {
+                     <div class="col-md-6" style="padding-top:12px;">
                     <MudCard Class="mud-theme-primary">
                         <MudCardHeader Style="padding-bottom: 3px;">
 
@@ -68,6 +70,8 @@
                         </MudCardContent>
                     </MudCard>
                 </div>
+                }
+               
             }
         </div>
     </div>

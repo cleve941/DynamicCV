@@ -7,16 +7,15 @@
             Id = id;
             Name = name;
             Role = "";
-            ProjectHistoryEntries = new List<ProjectHistoryEntry>();
-
-            Languages = new List<Language>();
-            Branches = new List<string> { };
-            Skills = new List<Skills> { };
-            TechnicalArea = new TechnicalArea { };
             Year = "";
             Experience = "";
+            Branches = new List<string>();
             Education = new List<string>();
-
+            ProjectHistoryEntries = new List<ProjectHistoryEntry>();
+            Languages = new List<Language>();
+            Skills = new List<Skill> ();
+            TechnicalArea = new TechnicalArea ();
+            
         }
 
         public int Id { get; set; }
@@ -28,7 +27,7 @@
         public List<ProjectHistoryEntry> ProjectHistoryEntries { get; set; }
         public List<Language> Languages { get; set; }
         public List<string> Branches { get; set; }
-        public List<Skills> Skills { get; set; }
+        public List<Skill> Skills { get; set; }
         public TechnicalArea TechnicalArea { get; set; }
     }
 }

@@ -13,12 +13,16 @@ namespace DynamicCV.Pages
     public partial class Curriculum
     {
         [Inject]
-        public HttpClient Http { get; set;}
+        public HttpClient? Http { get; set;}
         private Person? person;
 
         protected override async Task OnInitializedAsync()
         {
-            person = await Http.GetFromJsonAsync<Person>("sample-data/person.json");
+            if(Http != null)
+            {
+                person = await Http.GetFromJsonAsync<Person>("sample-data/person.json");
+            }
+            
         }
 
     }

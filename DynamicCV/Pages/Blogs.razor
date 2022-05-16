@@ -1,18 +1,18 @@
-﻿@page "/counter"
+﻿@page "/Blogs"
 
-<PageTitle>Counter</PageTitle>
+<PageTitle>Carsten Cleve - Blogs</PageTitle>
 
-<h1>Counter</h1>
 
-<p role="status">Current count: @currentCount</p>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+    <h1 style="padding-left:12px;">Blogs</h1>
 
-@code {
-    private int currentCount = 0;
-
-    private void IncrementCount()
+    @if (blogs == null)
     {
-        currentCount++;
+        <p><em>Loading...</em></p>
     }
-}
+    else
+    {
+    
+        <BlogViewer BlogEntries="@blogs"></BlogViewer>
+    
+    }

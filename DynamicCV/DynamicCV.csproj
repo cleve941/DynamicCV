@@ -29,6 +29,9 @@
     <Content Update="wwwroot\img\ich2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Update="wwwroot\sample-data\blogs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Update="wwwroot\sample-data\person.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

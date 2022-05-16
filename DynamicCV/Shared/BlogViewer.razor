@@ -1,0 +1,46 @@
+﻿@using Models
+@if (BlogEntries != null)
+{
+    <div class="container">
+        <div class="row" style="margin-bottom: 12px;">
+
+            @foreach (var entry in BlogEntries)
+            {
+                <div class="col-md-6" style="padding-top:12px;">
+                    <a href="@entry.Url" target="_blank">
+                        <MudCard Class="mud-theme-primary">
+                            <MudCardHeader Style="padding-bottom: 3px;">
+
+                                <CardHeaderContent>
+                                    <MudText>
+                                        @entry.Title
+                                    </MudText>
+
+                                </CardHeaderContent>
+                            </MudCardHeader>
+                            <MudDivider Style="height:2px;" Class="MudDividerClass" />
+                            <MudCardContent Style="padding-top: 3px;">
+                                <MudImage Style="width:100%" Src="@entry.PictureUrl" Alt="" Elevation="25" Class="rounded-lg" />
+                                <MudText Typo="Typo.body2"> @entry.Author</MudText>
+                                <MudDivider />
+
+                                <MudText Typo="Typo.button">Beschreibung:</MudText>
+                                <MudText Typo="Typo.body2">@entry.Description</MudText>
+
+
+                            </MudCardContent>
+                        </MudCard>
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+    <br />
+}
+
+
+@code {
+    // Demonstrates how a parent component can supply parameters
+    [Parameter]
+    public Blog[]? BlogEntries { get; set; }
+}
