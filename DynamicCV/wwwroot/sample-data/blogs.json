@@ -1,10 +1,10 @@
 ﻿[
   {
-    "Title": "How To Use The Graph API With SharePoint",
-    "Description": "Getting started with GraphApi is not that easy. In my recent project, I had to start learning how to use the Microsoft Graph API....",
-    "Url": "https://medium.com/how-tos/how-to-use-the-graph-api-with-sharepoint-ec1a0abe09e7",
-    "PictureUrl": "https://miro.medium.com/max/1400/0*tK210z1k4dAGnLEf",
-    "Author": "Photo by Christin Hume on Unsplash"
+    "Title": "How to Upload Files to OneDrive or SharePoint using Microsoft Graph API and CSOM",
+    "Description": "Uploading files in Sharepoint can be quite a difficulty. There are different was to Upload files, Like CSOM (Client Side Object Model) or the Graph API.",
+    "Url": "https://medium.com/@carstencleve/how-to-upload-files-to-onedrive-or-sharepoint-using-microsoft-graph-api-and-csom-1d052b21e0a8",
+    "PictureUrl": "https://miro.medium.com/max/1400/0*ErfXoCwI5Ybwtris",
+    "Author": "Photo by Ilya Pavlov on Unsplash"
 
   },
   {
